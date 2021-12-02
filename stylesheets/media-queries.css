@@ -13,6 +13,10 @@
 
 @media (max-width: 480px){
 
+    a{
+        z-index: 50;
+    }
+
     #header .navbar{
         display: flex;
         flex-direction: column;
