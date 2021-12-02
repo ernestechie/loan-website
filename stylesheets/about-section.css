@@ -1,0 +1,111 @@
+/* ABOUT SECTION */
+
+#about-section .about-service{
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+.about-service h1{
+    margin-bottom: 10px;
+}
+
+.service-locations{
+    width: 100vw;
+    height: 470px;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-locations h3{
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.service-locations .service-table{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.service-locations p{
+    width: 150px;
+    padding: 10px;
+    border: 2px solid var(--darkest-grey);
+}
+
+.service-locations .column-1,
+.service-locations .column-2{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.column-1 p, .column-2 p{
+    margin: 5px 0;
+}
+
+#services{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#services h2{
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+
+#services .service-row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.service-row .service-column{
+    width: 25%;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(240, 240, 240, 0.8);
+    background: var(--white);
+}
+
+.service-row .service-column h3{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* ICONS STYLE */
+.service-row .service-column i,
+#footer .get-started i{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    color: var(--primary-orange);
+    cursor: pointer;
+}
+
+#footer .get-started i:hover{
+    color: var(--grey);
+    transition: 0.4s ease-out;
+}
+
+p{
+    line-height: 1.5;
+}
+
+#info-section .info-service span{
+
+    padding: 10px 16px;
+    background: var(--primary-orange);
+    color: var(--white);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 1.25rem;
+
+}

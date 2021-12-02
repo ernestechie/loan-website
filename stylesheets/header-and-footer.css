@@ -1,0 +1,152 @@
+#header{
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/cover/cape-town-city.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+
+#header.contact-page::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--darkest-grey);
+    opacity: 0.9;
+}
+
+
+#header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--darkest-grey);
+    opacity: 0.7;
+}
+
+#header *{
+    z-index: 10;
+}
+
+#header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 8vh;
+    background: var(--dark-grey);
+    padding: 0 3rem;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+
+#header .navbar .nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#header .navbar .logo h1{
+    font-weight: 600;
+    color: var(--white);
+}
+
+.navbar .nav-links li a{
+    padding: 10px;
+    color: var(--white);
+    font-weight: 500;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.navbar li a:hover,
+.navbar .nav-links li a.current-page{
+    color: var(--primary-orange);
+    border-bottom: 2px solid var(--primary-orange);
+    transition: 0.6s ease-out;
+}
+
+#header .front-page{
+    padding: 0 1rem;
+    z-index: 20;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110%;
+    color: var(--white);
+}
+
+
+#header .front-page h1,
+#header .front-page h3{
+    padding: 0.5rem;
+}
+
+#header .front-page .button{
+    margin-top: 1rem;
+}
+
+/* FOOTER SECTION */
+
+#footer{
+    width: 100vw;
+    height: 300px;
+    background: var(--dark-grey);
+}
+
+#footer .get-started{
+    width: 100%;
+    height: 100%;
+    background: url(../images/cover/office-2.jpg) no-repeat center center/cover;
+    position: relative;
+
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+
+.get-started h2{
+    color: var(--grey);
+    margin: 20px auto;
+    font-size: 1.75rem;
+}
+
+.get-started::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.get-started .footer-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.get-started *{
+    z-index: 10;
+}
+
+/* #header .main-footer{
+    width: 100%;
+    height: 60%;
+} */
+
+#footer p:last-child{
+    opacity: 0.5;
+}

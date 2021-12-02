@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>West Lake Stocks</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Manrope:wght@400;500;600&family=Open+Sans:wght@300;400;600&family=Poppins:wght@500&family=Raleway:wght@500&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="../stylesheets/media-queries.css">
+    <link rel="stylesheet" href="../stylesheets/utilities.css">
+    <link rel="stylesheet" href="../stylesheets/header-and-footer.css">
+    <link rel="stylesheet" href="../stylesheets/loans.css">
+
+    <script src="https://kit.fontawesome.com/0b7e374f59.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDN Link -->
+   <style>
+        @media (max-width: 480px){
+
+            #header .navbar {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            #header .navbar .nav-links{
+                display: none;
+            }
+
+           
+        }
+   </style>
+<body>
+
+    <!-- HEADER INCLUDES THE NAV BAR AND THE HOME PAGE SECTION -->
+
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="harmburger">
+            <div></div>
+        </div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./info.html">Info</a></li>
+                        <li><a href="./loans.html"  class="current-page">Loans</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <header id="header" class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>westlake<span class="text-primary">.stocks</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./info.html">Info</a></li>
+                <li><a href="./loans.html"  class="current-page">Loans</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Hero PAGE SECTION -->
+    
+        <section class="front-page">
+            <h1>Loan Plans & Programs</h1>
+            <h3>Our loan programs are structured to meet your needs, regardless of the nature of your business. Our borrowers rely on us to quickly finance their real estate deals and help them grow their business. </h3><a href="#main" class="button button-primary">Loan Plans <i class="fas fa-chevron-right"></i></a>
+        </section>
+    </header>
+
+
+    <main id="main">
+
+        <section class="loan-plans loan-wrapper">
+
+            <!-- CONTAINER ONE -- RENTAL AND PROPERTY LOAN -->
+            <div class="flex-container bg-grey">
+                <i class="fas fa-home fa-3x icons icon-dark"></i>
+                <h3>RENTAL & PROPERTY PURCHASE</h3>
+
+                <p class="bold">Program Description</p>
+                <p>Finance for property rental purposes</p>
+                <p class="bold">Credit Score</p>
+                <p>500</p>
+                <p class="bold">Interest Rate</p>
+                <p>3.75% - 18%</p>
+                <p class="bold">Advance Benefits</p>
+                <p>37% - 80%</p>
+                <p class="bold">Property Types</p>
+                <p>Single, Family, Multi Family, Mixed-use</p>
+                <p class="bold">Late Payment Penalty</p>
+                <p>YES</p>
+                <p class="bold">Late Payment Pardon</p>
+                <p>NO</p>
+                <p class="bold">Loan Terms</p>
+                <p>12 Months</p>
+                <p class="bold">Loan Size</p>
+                <p>R15,000 - R75,000</p>
+                <a href="./loan-application.html" class="button button-dark-outline">Apply Now <i class="fas fa-chevron-right"></i></a>
+            </div>
+            
+            <!-- CONTAINER ONE -- CASH AND REFINANCE LOAN -->
+            <div class="flex-container bg-light">
+                <i class="fas fa-wallet fa-3x icons icon-dark"></i>
+                <h3>CASH & REFINANCE</h3>
+                
+                <p class="bold">Program Description</p>
+                <p>Cash Out for Personal Refinancing</p>
+                <p class="bold">Credit Score</p>
+                <p>450</p>
+                <p class="bold">Interest Rate</p>
+                <p>15% - 28%</p>
+                <p class="bold">Advance Beneftis</p>
+                <p>Up to 80%</p>
+                <p class="bold">Late Payment Penalty</p>
+                <p>YES</p>
+                <p class="bold">Cross Colateral</p>
+                <p>YES</p>
+                <p class="bold">Late Payment Pardon</p>
+                <p>NO</p>
+                <p class="bold">Loan Terms</p>
+                <p>6 Months</p>
+                <p class="bold">Loan Size</p>
+                <p>R5,000 - R25,000</p>
+                <a href="./loan-application.html" class="button button-dark-outline">Apply Now <i class="fas fa-chevron-right"></i></a>
+            </div>
+
+            <div class="flex-container bg-grey">
+                <i class="fas fa-landmark fa-3x icons icon-dark"></i>
+                <h3>LAND & CONSTRUCTION</h3>
+                
+                <p class="bold">Program Description</p>
+                <p>Land acquisition & constuction, or rebuild of existing property</p>
+                <p class="bold">Credit Score</p>
+                <p>300</p>
+                <p class="bold">Interest Rate</p>
+                <p>10% - 21%</p>
+                <p class="bold">Advance Beneftis</p>
+                <p>25%</p>
+                <p class="bold">Late Payment Penalty</p>
+                <p>YES</p>
+                <p class="bold">Cross Colateral</p>
+                <p>YES</p>
+                <p class="bold">Late Payment Pardon</p>
+                <p>NO</p>
+                <p class="bold">Loan Terms</p>
+                <p>36 Months</p>
+                <p class="bold">Loan Size</p>
+                <p>R115,000 - R235,000</p>
+                <a href="./loan-application.html" class="button button-dark-outline">Apply Now <i class="fas fa-chevron-right"></i></a>
+            </div>
+
+            <div class="flex-container bg-light">
+                <i class="fas fa-gifts  fa-3x icons icon-dark"></i>
+                <h3>FUN & FLIP</h3>
+                
+                <p class="bold">Program Description</p>
+                <p>Luxury Purchase & Vacation</p>
+                <p class="bold">Credit Score</p>
+                <p>600</p>
+                <p class="bold">Interest Rate</p>
+                <p>5% - 15%</p>
+                <p class="bold">Advance Beneftis</p>
+                <p>Up to 30%</p>
+                <p class="bold">Late Payment Penalty</p>
+                <p>YES</p>
+                <p class="bold">Cross Colateral</p>
+                <p>YES</p>
+                <p class="bold">Late Payment Pardon</p>
+                <p>NO</p>
+                <p class="bold">Loan Terms</p>
+                <p>12 Months</p>
+                <p class="bold">Loan Size</p>
+                <p>R15,000 - R55,000</p>
+                <a href="./loan-application.html" class="button button-dark-outline">Apply Now <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+<footer id="footer">
+    <section class="get-started">
+        <h2>Keep Up With Us</h2>
+        <section class="footer-icons">
+
+            <div class="icon-item">
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <h3>Facebook</h3>
+            </div>
+
+            <div class="icon-item">
+                <a href="https://web.whatsapp.com/">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+                <h3>Whatsapp</h3>
+            </div>
+
+            <div class="icon-item">
+                <a href="https://www.instagram.com/">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <h3>Instagram</h3>
+            </div>
+
+        </section>
+        <p style="opacity: 0.5;">&copy 2021 - Isaiah Ernest - Westlake Stocks</p>
+    </section>
+
+
+</footer>
+</body>
+
+</html>
