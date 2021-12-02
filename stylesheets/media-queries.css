@@ -125,7 +125,7 @@
         background: #ccc;
         align-items: center;
         justify-content: center;
-        transition: 0.5s ease-in-out;
+        transition: 0.2s ease-in-out;
     }
 
     /* HARMBURGER LINES -- BEFORE AND AFTER --TOP AND BOTTOM */
@@ -176,7 +176,7 @@
 
     .menu-wrap .toggler:checked ~ .menu > div {
         transform: scale(1);
-        transition-duration: 0.8s;
+        transition-duration: 0.5s;
     }
 
     .menu-wrap .toggler:checked ~ .menu > div > div{
