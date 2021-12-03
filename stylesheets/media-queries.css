@@ -247,6 +247,4 @@
     .menu-wrap .menu li a:hover, .menu-wrap .menu li a.current-page{
         color: var(--primary-orange);
     }
-
-   /* FORM STYLING FOR MOBILE */
 }
