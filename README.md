@@ -1,13 +1,17 @@
 <!-- 29th November, 2021 -->
 
 # Loan company landing page
-> View Live: 
-https://westlake-loans-and-stocks.netlify.app
+> View Live [Website](https://westlake-loans-and-stocks.netlify.app)
 
-> Made with plain HTML and CSS
+# Technologies
+- HTML5
+- CSS3
 
 # Personal Project On
-> Flexbox, Pseudo-selectors, Targeted & Combinator selectors, CSS tranitions, etc.
+- Flexbox
+- Pseudo-selectors
+- Target & Combinator selectors
+- CSS tranitions, etc.
 
 # Started this project
 > 19th November, 2021
